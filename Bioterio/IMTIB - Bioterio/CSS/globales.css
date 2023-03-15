@@ -1,0 +1,83 @@
+/* HTML y BODY */
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+:root{
+    --blanco: #FDFFFC;
+    --negro: #020100;
+    --principal: #E3E3DD;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body{
+    font-size: 1.6rem;
+    line-height: 2;
+    font-family: 'Roboto', sans-serif;
+    /* Light de 300, Mediun de 500 y Bold de 700 */
+    background-color: var(--principal);
+}
+
+/* Globales */
+.contenedor {
+    max-width: 120rem;
+    width: 90%;
+    width: min(90%, 120rem);
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: var(--negro);
+}
+a:hover{
+    text-decoration:underline;
+    cursor:pointer
+}
+
+h1, h2, h3, h4{
+    line-height: 1.2;
+}
+
+h1{
+    font-size: 4.8rem;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 3.2rem;
+}
+
+h4{
+    font-size: 2.8rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Utilizades */
+.no-margin{
+    margin: 0;
+}
+
+.no-padding{
+    padding: 0%;
+}
+
+.centrar-texto{
+    text-align: center;
+}
+
