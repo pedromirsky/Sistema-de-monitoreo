@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super-Freezer - IMTIB</title>
+    <link rel="shortcut icon" href="SRC/Imagenes/Hosp_italiano_logo.png">
+
+    <!-- Normalize -->
+    <!-- <link rel="preload" href="CSS/Normalize.css"> -->
+    <link rel="stylesheet" href="CSS/Normalize.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet"> 
+    <!-- CSS - Styles -->
+    <!-- <link rel="preload" href="CSS/globales.css"> -->
+    <link rel="stylesheet" href="CSS/globales.css">
+
+    <!-- <link rel="preload" href="CSS/especificos.css"> -->
+    <link rel="stylesheet" href="CSS/especificos.css">
+</head>
+<body>
+    <header class="container centrar-texto header">
+        <h1>Centro de Monitoreo de Temperatura Super-Freezer - IMTIB</h1>
+        <p>Instituto Universitario Hospital Italiano - Ingeniería Biomédica</p>
+    </header>
+
+    <div class="container centrar-texto temperaturas">
+        <div>
+            <div class="temp_super_f">
+                <h4>Temperatura: </h4><span id="super_f" class="temperatura"></span>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer centrar-texto">
+        <div>
+            <img src="SRC/Imagenes/IUHI.png" alt="IUHI">
+        </div>
+        <div class="div_derechos">
+            <p>©2021 por Instituto Universitario Hospital Italiano.</p>
+            <p>Arbasetti, Avila, Mirsky, Zavagnini</p>
+        </div>
+    </footer>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    <script src="JS/firebase_config.js"></script>
+</body>
+</html>
